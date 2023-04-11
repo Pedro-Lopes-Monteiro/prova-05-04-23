@@ -12,6 +12,11 @@ nav{
     color: white;
 }
 
+nav ul li:not(:nth-last-child(1)){
+    border-right: 2px solid white;
+    padding-right: 6em;
+}
+
 .menu ul{
     display: flex;
     justify-content: space-evenly;
@@ -92,4 +97,3 @@ nav{
     height: 80px;
     width: 100%;
 }
-
